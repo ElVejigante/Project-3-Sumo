@@ -12,14 +12,14 @@ necessary for successful execution of ml_notebook.ipynb
 **Understanding & Preparing Data:** 
 1. Headers with Japanese terms were translated to English (stable for heya, wrestler for rikishi, tournament for basho, etc.).
 2. All divisions below Makuuchi were dropped.
-3. All non-active wrestlers were dropped.
-4. Ranks were given a numerical value (from greatest to lowest: Yokozuna, Ozeki, Sekiwake,Komusubi, M1-18).
-5. Wrestler's age at the time of the tournament was calculated.
-6. For all matches, the differences in height, weight, age, and rank were calculated.
+4. All non-active wrestlers were dropped.
+5. Ranks were given a numerical value (from greatest to lowest: Yokozuna, Ozeki, Sekiwake,Komusubi, M1-18).
+6. Wrestler's age at the time of the tournament was calculated.
+7. For all matches, the differences in height, weight, age, and rank were calculated.
 **Machine Learning**
 1. Google Colab Notebook: https://colab.research.google.com/drive/1mwyxMXyvbrq9RxqpzQLxNomUelTJqf5r#scrollTo=nR-i6E8OEchD
 2. Features used for machine learning: differences in height, weight, age and rank.
-3. ML methods used: Logistic Regression, Decision Tree Classifier, Random Forest
+3. Machine Learning methods used: Logistic Regression, Decision Tree Classifier, Random Forest
 4. Logistic Regression gave the highest Training/Testing Scores (59/55% respectively)
 5. GridSearchCV was attempted but it took TOO DARN LONG!!!
 6. The LR model was trained using data from May 2004 to March 2021 and tested with May 2021 tournament results.
