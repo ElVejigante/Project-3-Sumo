@@ -23,7 +23,7 @@ necessary for successful execution of ml_notebook.ipynb
 4. Logistic Regression gave the highest Training/Testing Scores (59/55% respectively)
 5. GridSearchCV was attempted but it took TOO DARN LONG!!!
 7. The LR model was trained using data from May 2004 to March 2021 and tested with May 2021 tournament results.
-8. Conclusion: 
+**Conclusion:** 
 9. The model came close to some actual results! It predicted Takakeisho as the winner (he was runner-up) while the actual winner, Terunofuji was predicted as the runner-up. Not bad! 
 10. Ichinojo was the only perfectly predicted outcome with 9 wins, while the model predictions for Terunofuji, Wakatakakage and Shimanoumi were off by just 1 win.
 11. Things to improve the model: add more features like match win percentages or wrestler injuries.
