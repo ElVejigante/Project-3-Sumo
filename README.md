@@ -1,4 +1,4 @@
-# 23-Project-3
+Sumo Tournament Predictor
 
 **Objective:** trying different machine learning methods to develop a sumo wrestling match predictor.
 **Dataset source:** https://data.world/cervus/sumo-japan, curated by Mikhail Zhilkin
